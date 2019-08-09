@@ -1,0 +1,40 @@
+{
+  "name": "resemble-image-cli",
+  "description": "Command-line interface for resemble-image",
+  "author": "Hugo Locurcio",
+  "repository": "Calinou/resemble-image-cli",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "keywords": [
+    "cli",
+    "color",
+    "css-gradient",
+    "image",
+    "gradient",
+    "performance",
+    "resemble-image"
+  ],
+  "engines": {
+    "node": ">=8"
+  },
+  "bin": {
+    "resemble-image": "index.js"
+  },
+  "dependencies": {
+    "mri": "^1.1.4",
+    "resemble-image": "^1.0.2"
+  },
+  "scripts": {
+    "lint": "eslint \"**/*.js\"",
+    "start": "node index.js"
+  },
+  "devDependencies": {
+    "eslint": ">=6.0.1",
+    "eslint-config-standard": "^13.0.1",
+    "eslint-plugin-import": ">=2.18.0",
+    "eslint-plugin-node": ">=9.1.0",
+    "eslint-plugin-promise": ">=4.2.1",
+    "eslint-plugin-standard": ">=4.0.0"
+  }
+}
